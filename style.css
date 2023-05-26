@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(87, 87, 87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+
+.kare{
+    background-color: #1d1d1d;
+    height: 16px;
+    width: 16px;
+    box-shadow: 0 0 3px;
+    margin: 2px;
+    transition: 2s ease;
+}
+
+.kare:hover{
+    transition-duration: 0s;
+}
+
+["#39B5E0", "#A31ACB", "#FF78F0", "#F5EA5A", "#FF7B54"]
+["#ffef03", "#004684", "rgb(245, 245, 229)", "rgb(18, 144, 108)", "#e20025" ]
+["#ffef03", "#004684", "rgb(245, 245, 229)"]
